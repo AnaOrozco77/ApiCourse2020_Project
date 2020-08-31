@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API_test" tests="15" skipped="0" failures="1" errors="0" timestamp="2020-08-31T02:00:37" hostname="Luis-Laptop" time="18.193">
+  <properties/>
+  <testcase name="t01_get_token_fail" classname="API_test" time="3.597"/>
+  <testcase name="t02_get_token_correct" classname="API_test" time="1.647"/>
+  <testcase name="t03_create_user_fail" classname="API_test" time="0.293"/>
+  <testcase name="t04_create_user" classname="API_test" time="0.987"/>
+  <testcase name="t05_update_phone_number" classname="API_test" time="1.108"/>
+  <testcase name="t06_add_new_add_fail" classname="API_test" time="0.416"/>
+  <testcase name="t07_add_new_add" classname="API_test" time="3.0"/>
+  <testcase name="t08_update_add" classname="API_test" time="4.254"/>
+  <testcase name="t09_get_address_fail" classname="API_test" time="0.353"/>
+  <testcase name="t10_user_has_no_address" classname="API_test" time="0.408">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;[[:]]&gt; but was:&lt;[[9e6549f4-eafa-11ea-9315-1bffa56f7c0d:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], b8cedf1c-eafa-11ea-9315-97abfffe314c:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], f47f5906-eaff-11ea-8f3c-0729d6eb681f:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], e0581a52-eb05-11ea-9315-e356830c6403:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 0a919bec-eb09-11ea-9315-f7a80da00e64:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 58211dba-eb09-11ea-b3d9-9792d390b24a:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 7aa53eb8-eb0c-11ea-b029-53aeb0213ddc:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 6acfb3c6-eb0f-11ea-8f3c-ff69f9ad05a8:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 203add76-eb10-11ea-8f3c-63b274790ada:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], b87746a2-eb14-11ea-9315-33c82c000d36:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 28afd9b6-eb15-11ea-8f3c-a70ada1f4c00:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 49ef438a-eb17-11ea-8f3c-27da9e8e3cf5:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 33d8d92c-eb20-11ea-8f3c-977fd2ec05d0:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], b516c274-eb2a-11ea-b029-efba7927b3ce:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050]]]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[[:]]&gt; but was:&lt;[[9e6549f4-eafa-11ea-9315-1bffa56f7c0d:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], b8cedf1c-eafa-11ea-9315-97abfffe314c:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], f47f5906-eaff-11ea-8f3c-0729d6eb681f:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], e0581a52-eb05-11ea-9315-e356830c6403:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 0a919bec-eb09-11ea-9315-f7a80da00e64:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 58211dba-eb09-11ea-b3d9-9792d390b24a:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 7aa53eb8-eb0c-11ea-b029-53aeb0213ddc:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 6acfb3c6-eb0f-11ea-8f3c-ff69f9ad05a8:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 203add76-eb10-11ea-8f3c-63b274790ada:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], b87746a2-eb14-11ea-9315-33c82c000d36:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 28afd9b6-eb15-11ea-8f3c-a70ada1f4c00:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 49ef438a-eb17-11ea-8f3c-27da9e8e3cf5:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 33d8d92c-eb20-11ea-8f3c-977fd2ec05d0:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], b516c274-eb2a-11ea-b029-efba7927b3ce:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050]]]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at API_test.t10_user_has_no_address(API_test.java:287)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="t11_create_user_address" classname="API_test" time="0.491"/>
+  <testcase name="t12_update_user_address_duplicated" classname="API_test" time="0.298"/>
+  <testcase name="t13_get_created_address" classname="API_test" time="0.468"/>
+  <testcase name="t14_shop_not_found" classname="API_test" time="0.377"/>
+  <testcase name="t15_delete_ad" classname="API_test" time="0.484"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://webapi.segundamano.mx/nga/api/v1.1/private/accounts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Status expected: 400
+Result: 400
+Error Code expected: VALIDATION FAILED 
+Result: VALIDATION_FAILED
+authorizationToken: dGVzdGVydGVzdGluZzQzMUBnbWFpbC5jb206dGVzdGVydGVzdGluZzQzMTIwMjAzMw==
+Request method:	POST
+Request URI:	https://webapi.segundamano.mx/nga/api/v1.1/private/accounts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic dGVzdGVydGVzdGluZzQzMUBnbWFpbC5jb206dGVzdGVydGVzdGluZzQzMTIwMjAzMw==
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Status expected: 200
+Result: 200
+Token:mc1xb4bf866ea6d645152e9bcba95b11fbfe16e260a0_v2
+/private/accounts/10835880
+Carla Ochoa
+d06767a7-fa8e-4c7d-98f6-116b0dfdec41
+10835880
+token2: ZDA2NzY3YTctZmE4ZS00YzdkLTk4ZjYtMTE2YjBkZmRlYzQxOm1jMXhiNGJmODY2ZWE2ZDY0NTE1MmU5YmNiYTk1YjExZmJmZTE2ZTI2MGEwX3Yy
+Request method:	POST
+Request URI:	https://webapi.segundamano.mx/nga/api/v1.1/private/accounts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "account": {
+        "email": "agente1376.0@mailinator.com"
+    }
+}
+Status expected: 400
+Result: 400
+VALIDATION_FAILED
+valid username and password: agente7295@mailinator.com:148087
+encodedAuth: YWdlbnRlNzI5NUBtYWlsaW5hdG9yLmNvbToxNDgwODc=
+Request method:	POST
+Request URI:	https://webapi.segundamano.mx/nga/api/v1.1/private/accounts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YWdlbnRlNzI5NUBtYWlsaW5hdG9yLmNvbToxNDgwODc=
+				Accept=*/*
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "account": {
+        "email": "agente7295@mailinator.com",
+        "phone": 6556654455,
+        "name": "AgenteVentas"
+    }
+}
+Status expected: 401
+Result: 401
+Body Response: {"error":{"code":"ACCOUNT_VERIFICATION_REQUIRED"}}
+Request method:	PATCH
+Request URI:	https://webapi.segundamano.mx/nga/api/v1.1/private/accounts/10835880
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=tag:scmcoord.com,2013:api mc1xb4bf866ea6d645152e9bcba95b11fbfe16e260a0_v2
+				Accept=application/json, text/plain, */*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "account": {
+        "name": "Carla Ochoa",
+        "phone": "1017937848",
+        "phone_hidden": true
+    }
+}
+Status expected: 200
+Result: 200
+Request method:	POST
+Request URI:	https://webapi.segundamano.mx/nga/api/v1/private/accounts/10835880/klfst
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=tag:scmcoord.com,2013:api ZDA2NzY3YTctZmE4ZS00YzdkLTk4ZjYtMTE2YjBkZmRlYzQxOm1jMXhiNGJmODY2ZWE2ZDY0NTE1MmU5YmNiYTk1YjExZmJmZTE2ZTI2MGEwX3Yy
+				x-nga-source=PHOENIX_DESKTOP
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "ad": {
+        "locations": [
+            {
+                "code": "5",
+                "key": "region",
+                "label": "Baja California Sur",
+                "locations": [
+                    {
+                        "code": "51",
+                        "key": "municipality",
+                        "label": "ComondÃº",
+                        "locations": [
+                            {
+                                "code": "3748",
+                                "key": "area",
+                                "label": "4 de Marzo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "subject": "Paseo perros a domicilio",
+        "body": "Para su comodidad, paseo perros en su domicilio, use la promociÃ³n 1.0955086185368829E9",
+        "category": {
+            "code": "3042"
+        },
+        "images": [
+            
+        ],
+        "price": {
+            "currency": "mxn",
+            "price_value": 1
+        },
+        "ad_details": {
+            
+        },
+        "phone_hidden": 1,
+        "plate": "",
+        "vin": "",
+        "type": {
+            "code": "s",
+            "label": ""
+        },
+        "ad": "Paseo perros a domicilio"
+    },
+    "category_suggestion": false,
+    "commit": true
+}
+Status expected: 401
+Result: 401
+Error Code expected: UNAUTHORIZED 
+Result: UNAUTHORIZED
+AccountID: /private/accounts/10835880
+Request method:	POST
+Request URI:	https://webapi.segundamano.mx/%2F%2Faccounts/d06767a7-fa8e-4c7d-98f6-116b0dfdec41/up
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic ZDA2NzY3YTctZmE4ZS00YzdkLTk4ZjYtMTE2YjBkZmRlYzQxOm1jMXhiNGJmODY2ZWE2ZDY0NTE1MmU5YmNiYTk1YjExZmJmZTE2ZTI2MGEwX3Yy
+				x-source=PHOENIX_DESKTOP
+				Accept=application/json, text/plain, */*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "category": "8041",
+    "subject": "Servico de consultoria",
+    "body": "ConsultorÃ­a de arquitectos a tus ordenes, pregunta por nuestros servicios",
+    "price": "1",
+    "region": "28",
+    "municipality": "1963",
+    "area": "83521",
+    "phone_hidden": "true"
+}
+Body Response: {"data":{"ad":{"ad_id":"68414544","subject":"Servico de consultoria","category":{"code":"8041","label":"Arquitectos","parent":{"code":"8040","label":"Profesionales","parent":{"code":"8000","label":"Servicios"}}},"region":{"code":"28","label":"Sonora"},"municipality":{"code":"1963","label":"Soyopa"},"area":{"code":"83521","label":"La Estrella"},"price":{"currency":"MXN","value":1}},"payment_info":{"payment_required":false,"title":"¡Listo! Tu anuncio está en revisión.","description":"Destácalo y obtén más contactos.","products":[{"id":"","name":"Anuncio sin destacar","description":"Tu anuncio gratis, sin destacarlo.","most_popular":false},{"id":"serv_premiumpackage_1","name":"Subir Diario","label":"Recibe hasta 6 veces más contactos","description":"Sube tu anuncio todos los días durante 7 días","most_popular":true,"price":120},{"id":"serv_premiumpackage_2","name":"Subir diario y Posición principal","label":"Recibe hasta 12 veces más contactos","description":"Sube tu anuncio todos los días durante 7 días y pon tu anuncio en la primera posición durante 3 días","most_popular":false,"price":220}]}}}
+Status expected: 200
+Result: 200
+Action expected to be: null 
+Result: null
+Ad Created with id: 68414544
+Ad Created with id: 68414544
+Request method:	POST
+Request URI:	https://webapi.segundamano.mx/nga/api/v1/private/accounts/10835880/klfst/68414544/actions
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=tag:scmcoord.com,2013:api mc1xb4bf866ea6d645152e9bcba95b11fbfe16e260a0_v2
+				Accept=application/json, text/plain, */*
+				x-nga-source=PHOENIX_DESKTOP
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "ad": {
+        "locations": [
+            {
+                "code": "5",
+                "key": "region",
+                "label": "Baja California Sur",
+                "locations": [
+                    {
+                        "code": "51",
+                        "key": "municipality",
+                        "label": "ComondÃº",
+                        "locations": [
+                            {
+                                "code": "3748",
+                                "key": "area",
+                                "label": "4 de Marzo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "subject": "Paseo perros a domicilio",
+        "body": "Para su comodidad, paseo perros en su domicilio, use la promociÃ³n 1.0916472296956596E9",
+        "category": {
+            "code": "3042"
+        },
+        "images": [
+            
+        ],
+        "price": {
+            "currency": "mxn",
+            "price_value": 1
+        },
+        "ad_details": {
+            
+        },
+        "phone_hidden": 1,
+        "plate": "",
+        "vin": "",
+        "type": {
+            "code": "s",
+            "label": ""
+        },
+        "ad": "Paseo perros a domicilio"
+    },
+    "category_suggestion": false,
+    "commit": true
+}
+Body Response: {"action":{"action_id":"/private/accounts/10835880/ads/68414544/actions/2","action_type":"edit"},"ad":{"ad_id":"/private/accounts/10835880/ads/68414544","subject":"Paseo perros a domicilio"}}
+Status expected: 201
+Result: 201
+Action expected to be: edit 
+Result: edit
+Request method:	GET
+Request URI:	https://webapi.segundamano.mx/addresses/v1/get
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic mc1xb4bf866ea6d645152e9bcba95b11fbfe16e260a0_v2
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Status expected: 403
+Result: 403
+Error Code expected: Authorization failed 
+Result: Authorization failed
+Request method:	GET
+Request URI:	https://webapi.segundamano.mx/addresses/v1/get
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic ZDA2NzY3YTctZmE4ZS00YzdkLTk4ZjYtMTE2YjBkZmRlYzQxOm1jMXhiNGJmODY2ZWE2ZDY0NTE1MmU5YmNiYTk1YjExZmJmZTE2ZTI2MGEwX3Yy
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Status expected: 200
+Result: 200
+List expected to be empty 
+Result: [9e6549f4-eafa-11ea-9315-1bffa56f7c0d:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], b8cedf1c-eafa-11ea-9315-97abfffe314c:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], f47f5906-eaff-11ea-8f3c-0729d6eb681f:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], e0581a52-eb05-11ea-9315-e356830c6403:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 0a919bec-eb09-11ea-9315-f7a80da00e64:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 58211dba-eb09-11ea-b3d9-9792d390b24a:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 7aa53eb8-eb0c-11ea-b029-53aeb0213ddc:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 6acfb3c6-eb0f-11ea-8f3c-ff69f9ad05a8:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 203add76-eb10-11ea-8f3c-63b274790ada:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], b87746a2-eb14-11ea-9315-33c82c000d36:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 28afd9b6-eb15-11ea-8f3c-a70ada1f4c00:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 49ef438a-eb17-11ea-8f3c-27da9e8e3cf5:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 33d8d92c-eb20-11ea-8f3c-977fd2ec05d0:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], b516c274-eb2a-11ea-b029-efba7927b3ce:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050]]
+Request method:	POST
+Request URI:	https://webapi.segundamano.mx/addresses/v1/create
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	contact=Casa grande
+				phone=3234445555
+				rfc=CASA681225XXX
+				zipCode=45050
+				exteriorInfo=exterior 10
+				region=5
+				municipality=51
+				alias=big house
+Path params:	<none>
+Headers:		Authorization=Basic ZDA2NzY3YTctZmE4ZS00YzdkLTk4ZjYtMTE2YjBkZmRlYzQxOm1jMXhiNGJmODY2ZWE2ZDY0NTE1MmU5YmNiYTk1YjExZmJmZTE2ZTI2MGEwX3Yy
+				Accept=application/json, text/plain, */*
+				x-source=PHOENIX_DESKTOP
+				Content-Type=application/x-www-form-urlencoded; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Body address: {"addressID":"cc1f7300-eb2d-11ea-b3d9-53c09d69c64b"}
+Status expected: 201
+Result: 201
+Address created with ID: cc1f7300-eb2d-11ea-b3d9-53c09d69c64b
+Request method:	PUT
+Request URI:	https://webapi.segundamano.mx/addresses/v1/modify/cc1f7300-eb2d-11ea-b3d9-53c09d69c64b
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	contact=Casa grande
+				phone=3234445555
+				rfc=CASA681225XXX
+				zipCode=45050
+				exteriorInfo=exterior 10
+				region=5
+				municipality=51
+				alias=big house
+Path params:	<none>
+Headers:		Authorization=Basic ZDA2NzY3YTctZmE4ZS00YzdkLTk4ZjYtMTE2YjBkZmRlYzQxOm1jMXhiNGJmODY2ZWE2ZDY0NTE1MmU5YmNiYTk1YjExZmJmZTE2ZTI2MGEwX3Yy
+				Accept=application/json, text/plain, */*
+				Accept-Language=es
+				Content-Type=application/x-www-form-urlencoded;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Body Response: {"error":"Error during update: update not applied, there's nothing to update"}
+Status expected: 200
+Result: 200
+Request expected to return error 
+Result: Error during update: update not applied, there's nothing to update
+Request method:	GET
+Request URI:	https://webapi.segundamano.mx/addresses/v1/get
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic ZDA2NzY3YTctZmE4ZS00YzdkLTk4ZjYtMTE2YjBkZmRlYzQxOm1jMXhiNGJmODY2ZWE2ZDY0NTE1MmU5YmNiYTk1YjExZmJmZTE2ZTI2MGEwX3Yy
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Status expected: 200
+Result: 200
+Request expected to contain addressID: [9e6549f4-eafa-11ea-9315-1bffa56f7c0d:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], b8cedf1c-eafa-11ea-9315-97abfffe314c:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], f47f5906-eaff-11ea-8f3c-0729d6eb681f:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], e0581a52-eb05-11ea-9315-e356830c6403:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 0a919bec-eb09-11ea-9315-f7a80da00e64:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 58211dba-eb09-11ea-b3d9-9792d390b24a:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 7aa53eb8-eb0c-11ea-b029-53aeb0213ddc:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 6acfb3c6-eb0f-11ea-8f3c-ff69f9ad05a8:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 203add76-eb10-11ea-8f3c-63b274790ada:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], b87746a2-eb14-11ea-9315-33c82c000d36:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 28afd9b6-eb15-11ea-8f3c-a70ada1f4c00:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 49ef438a-eb17-11ea-8f3c-27da9e8e3cf5:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], 33d8d92c-eb20-11ea-8f3c-977fd2ec05d0:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], b516c274-eb2a-11ea-b029-efba7927b3ce:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050], cc1f7300-eb2d-11ea-b3d9-53c09d69c64b:[exteriorInfo:exterior 10, interiorInfo:, region:5, municipality:51, area:0, alias:big house, contact:Casa grande, phone:3234445555, zipCode:45050]]
+Request method:	GET
+Request URI:	https://webapi.segundamano.mx/shops/api/v2/public/accounts/10613126/shop
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Status expected: 404
+Result: 404
+Error Code expected: Account not found 
+Result: Account not found
+Request method:	DELETE
+Request URI:	https://webapi.segundamano.mx/nga/api/v1/private/accounts%2F%2Fprivate/accounts/10835880/68414544
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=tag:scmcoord.com,2013:api mc1xb4bf866ea6d645152e9bcba95b11fbfe16e260a0_v2
+				Accept=application/json, text/plain, */*
+				Accept-Language=es
+				Content-Type=application/json;charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "delete_reason": {
+        "code": "5"
+    }
+}
+Token: mc1xb4bf866ea6d645152e9bcba95b11fbfe16e260a0_v2
+Status expected: 403
+Result: 403
+Action expected to be: null 
+Result: null
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>
